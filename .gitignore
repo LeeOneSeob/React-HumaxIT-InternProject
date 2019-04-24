@@ -1,0 +1,7 @@
+node_modules/
+.vscode/
+express-app/build
+express-app/public/dist
+express-app/.env
+express-app/.vscode
+jumbo-react/dist

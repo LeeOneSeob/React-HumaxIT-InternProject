@@ -1,0 +1,79 @@
+/*=============================
+top-header
+=============================*/
+
+.top-header {
+    background: #03a9f4;
+    padding: 10px 0;
+    clear: both;
+}
+
+.top-header ul {
+    margin: 0;
+    padding: 0;
+}
+
+.top-header .col-md-7 {
+    text-align: right;
+}
+
+.tophead-link>li {
+    display: inline-block;
+    position: relative;
+}
+
+/* .tophead-link li a:after {
+    content: "|";
+    padding: 0 8px;
+    color: #ccc;
+    display: inline-block;
+    white-space: pre;
+} */
+
+.tophead-link li:last-child a:after {
+    content: "";
+    padding: 0;
+}
+
+.item:after{
+    content: "|";
+    padding: 0 8px;
+    color: #ccc;
+    display: inline-block;
+    white-space: pre;
+}
+
+.tophead-link li a {
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    position: relative;
+}
+
+.tophead-link li a i {
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.tophead-link {
+    display: inline-block;
+}
+
+
+/*=============================
+top-header media-screen
+=============================*/
+
+@media only screen and (max-width:540px) {
+    .top-header .col-md-5 {
+        display: none;
+    }
+    .top-header .col-md-7 {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.iconAlign {
+    font-size: 10px;
+}
